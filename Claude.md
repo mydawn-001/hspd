@@ -1,0 +1,2 @@
+理解项目需求文档和后端脚手架代码规范
+我要生成业务代码在hspd-server服务下面，并保留提示词放在hspd-server 服务的readme.md文件中

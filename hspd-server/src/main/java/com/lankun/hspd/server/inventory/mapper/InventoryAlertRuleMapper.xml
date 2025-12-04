@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.inventory.dao.InventoryAlertRuleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.inventory.domain.InventoryAlertRuleEntity">
+        <id column="id" property="id" />
+        <result column="item_id" property="itemId" />
+        <result column="warehouse_id" property="warehouseId" />
+        <result column="min_stock" property="minStock" />
+        <result column="max_stock" property="maxStock" />
+        <result column="alert_type" property="alertType" />
+        <result column="expire_days" property="expireDays" />
+        <result column="is_active" property="isActive" />
+    </resultMap>
+
+</mapper>

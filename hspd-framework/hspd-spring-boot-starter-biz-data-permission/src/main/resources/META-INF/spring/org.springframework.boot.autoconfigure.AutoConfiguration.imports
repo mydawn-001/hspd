@@ -1,0 +1,3 @@
+com.lankun.hspd.framework.datapermission.config.YudaoDataPermissionAutoConfiguration
+com.lankun.hspd.framework.datapermission.config.YudaoDeptDataPermissionAutoConfiguration
+com.lankun.hspd.framework.datapermission.config.YudaoDataPermissionRpcAutoConfiguration

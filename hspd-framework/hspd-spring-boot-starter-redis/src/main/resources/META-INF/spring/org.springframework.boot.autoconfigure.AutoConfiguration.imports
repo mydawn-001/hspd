@@ -1,0 +1,2 @@
+com.lankun.hspd.framework.redis.config.YudaoRedisAutoConfiguration
+com.lankun.hspd.framework.redis.config.YudaoCacheAutoConfiguration

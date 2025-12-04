@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.purchase.dao.OrderApprovalFlowMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.purchase.domain.OrderApprovalFlowEntity">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="node_key" property="nodeKey" />
+        <result column="approver_id" property="approverId" />
+        <result column="approver_name" property="approverName" />
+        <result column="approval_opinion" property="approvalOpinion" />
+        <result column="approval_result" property="approvalResult" />
+        <result column="approval_time" property="approvalTime" />
+        <result column="ip_address" property="ipAddress" />
+        <result column="created_at" property="createdAt" />
+    </resultMap>
+
+</mapper>

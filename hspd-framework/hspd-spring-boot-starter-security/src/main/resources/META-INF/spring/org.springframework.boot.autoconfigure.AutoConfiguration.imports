@@ -1,0 +1,5 @@
+com.lankun.hspd.framework.security.config.YudaoSecurityRpcAutoConfiguration
+com.lankun.hspd.framework.security.config.YudaoSecurityAutoConfiguration
+com.lankun.hspd.framework.security.config.YudaoWebSecurityConfigurerAdapter
+com.lankun.hspd.framework.operatelog.config.YudaoOperateLogConfiguration
+com.lankun.hspd.framework.operatelog.config.YudaoOperateLogRpcAutoConfiguration

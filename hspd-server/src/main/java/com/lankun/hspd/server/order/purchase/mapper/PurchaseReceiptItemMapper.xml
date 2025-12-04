@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.purchase.dao.PurchaseReceiptItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.purchase.domain.PurchaseReceiptItemEntity">
+        <id column="id" property="id" />
+        <result column="receipt_id" property="receiptId" />
+        <result column="order_item_id" property="orderItemId" />
+        <result column="batch_no" property="batchNo" />
+        <result column="production_date" property="productionDate" />
+        <result column="expire_date" property="expireDate" />
+        <result column="received_qty" property="receivedQty" />
+        <result column="rejected_qty" property="rejectedQty" />
+        <result column="reject_reason" property="rejectReason" />
+    </resultMap>
+
+</mapper>

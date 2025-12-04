@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.purchase.dao.PurchaseOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.purchase.domain.PurchaseOrderEntity">
+        <id column="id" property="id" />
+        <result column="order_no" property="orderNo" />
+        <result column="medical_union_id" property="medicalUnionId" />
+        <result column="applicant_id" property="applicantId" />
+        <result column="order_type" property="orderType" />
+        <result column="procurement_mode" property="procurementMode" />
+        <result column="is_urgent" property="isUrgent" />
+        <result column="supplier_id" property="supplierId" />
+        <result column="supplier_name" property="supplierName" />
+        <result column="total_amount" property="totalAmount" />
+        <result column="currency" property="currency" />
+        <result column="order_status" property="orderStatus" />
+        <result column="apply_time" property="applyTime" />
+        <result column="submit_time" property="submitTime" />
+        <result column="approval_time" property="approvalTime" />
+        <result column="completed_time" property="completedTime" />
+        <result column="created_at" property="createdAt" />
+        <result column="updated_at" property="updatedAt" />
+        <result column="source_type" property="sourceType" />
+        <result column="source_id" property="sourceId" />
+    </resultMap>
+
+</mapper>

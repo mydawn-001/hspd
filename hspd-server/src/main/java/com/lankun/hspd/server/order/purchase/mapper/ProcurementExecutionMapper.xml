@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.purchase.dao.ProcurementExecutionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.purchase.domain.ProcurementExecutionEntity">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="execution_type" property="executionType" />
+        <result column="executor_id" property="executorId" />
+        <result column="executor_name" property="executorName" />
+        <result column="execution_status" property="executionStatus" />
+        <result column="execution_progress" property="executionProgress" />
+        <result column="start_time" property="startTime" />
+        <result column="completed_time" property="completedTime" />
+        <result column="failure_reason" property="failureReason" />
+        <result column="created_at" property="createdAt" />
+        <result column="updated_at" property="updatedAt" />
+    </resultMap>
+
+</mapper>

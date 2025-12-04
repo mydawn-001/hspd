@@ -1,0 +1,8 @@
+com.lankun.hspd.framework.apilog.config.YudaoApiLogAutoConfiguration
+com.lankun.hspd.framework.jackson.config.YudaoJacksonAutoConfiguration
+com.lankun.hspd.framework.swagger.config.YudaoSwaggerAutoConfiguration
+com.lankun.hspd.framework.web.config.YudaoWebAutoConfiguration
+com.lankun.hspd.framework.apilog.config.YudaoApiLogRpcAutoConfiguration
+com.lankun.hspd.framework.xss.config.YudaoXssAutoConfiguration
+com.lankun.hspd.framework.banner.config.YudaoBannerAutoConfiguration
+com.lankun.hspd.framework.encrypt.config.YudaoApiEncryptAutoConfiguration

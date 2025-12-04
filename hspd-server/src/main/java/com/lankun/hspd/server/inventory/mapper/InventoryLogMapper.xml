@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.inventory.dao.InventoryLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.inventory.domain.InventoryLogEntity">
+        <id column="id" property="id" />
+        <result column="inventory_id" property="inventoryId" />
+        <result column="item_id" property="itemId" />
+        <result column="warehouse_id" property="warehouseId" />
+        <result column="batch_no" property="batchNo" />
+        <result column="change_qty" property="changeQty" />
+        <result column="balance_qty" property="balanceQty" />
+        <result column="biz_type" property="bizType" />
+        <result column="biz_id" property="bizId" />
+        <result column="operator_user_id" property="operatorUserId" />
+        <result column="remark" property="remark" />
+        <result column="created_at" property="createdAt" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,3 @@
+com.lankun.hspd.framework.mq.redis.config.YudaoRedisMQProducerAutoConfiguration
+com.lankun.hspd.framework.mq.redis.config.YudaoRedisMQConsumerAutoConfiguration
+com.lankun.hspd.framework.mq.rabbitmq.config.YudaoRabbitMQAutoConfiguration

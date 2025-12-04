@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lankun.hspd.server.inventory.dao.InventoryAlertEventMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lankun.hspd.server.inventory.domain.InventoryAlertEventEntity">
+        <id column="id" property="id" />
+        <result column="rule_id" property="ruleId" />
+        <result column="item_id" property="itemId" />
+        <result column="warehouse_id" property="warehouseId" />
+        <result column="current_qty" property="currentQty" />
+        <result column="expire_date" property="expireDate" />
+        <result column="alert_msg" property="alertMsg" />
+        <result column="is_resolved" property="isResolved" />
+        <result column="resolved_by" property="resolvedBy" />
+        <result column="created_at" property="createdAt" />
+    </resultMap>
+
+</mapper>

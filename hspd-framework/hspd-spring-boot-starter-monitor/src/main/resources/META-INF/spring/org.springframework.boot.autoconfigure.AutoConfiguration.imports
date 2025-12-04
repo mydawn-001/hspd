@@ -1,0 +1,2 @@
+com.lankun.hspd.framework.tracer.config.YudaoTracerAutoConfiguration
+com.lankun.hspd.framework.tracer.config.YudaoMetricsAutoConfiguration
